@@ -1,0 +1,80 @@
+h1 {
+    font-size: 30px;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 70px 0; /* padding on top and bottom */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    font-size: 17px;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 30px 0 30px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+#googleLogo {
+    padding-top: 10px;
+}
+
+.button {
+    background-color: #F3F1F2; /* Green */
+    border: none;
+    color: #948E9A;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#textBox {
+    width: 500px;
+    margin: 20px 0;
+    background-color: white;
+    /*
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+     */
+}
+
+#bottomBar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.whiteBar {
+    background-color: white;
+}
+
+.lightgrayBar {
+    background-color: lightgray;
+}
